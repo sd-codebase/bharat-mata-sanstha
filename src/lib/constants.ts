@@ -1,5 +1,4 @@
-export const ORG_NAME =
-  process.env.NEXT_PUBLIC_ORG_NAME || "Bharat Mata Bahuuddeshiy Sanstha";
+export const ORG_NAME = "Bharat Mata Bahuuddeshiya Sanstha, Barshi";
 
 export const ORG_SHORT_NAME = "BMBS";
 
