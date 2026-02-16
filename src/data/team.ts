@@ -9,28 +9,28 @@ export interface TeamMember {
 export const teamMembers: TeamMember[] = [
   {
     id: 1,
-    name: "Shri. Ramchandra Patil",
+    name: "Shri. Vitthal Ukirade",
     designation: "President",
     designationMarathi: "Adhyaksha",
     image: "/images/team/president.jpeg",
   },
   {
     id: 2,
-    name: "Shri. Sunil Jadhav",
+    name: "Shri. Sharad Ukirade",
     designation: "Secretary",
     designationMarathi: "Sachiv",
     image: "/images/team/secretary.jpeg",
   },
   {
     id: 3,
-    name: "Shri. Vikram Deshmukh",
+    name: "Shri. Samarth Ukirade",
     designation: "Member",
     designationMarathi: "Sadasya",
     image: "/images/team/member-1.jpeg",
   },
   {
     id: 4,
-    name: "Shri. Manoj Kulkarni",
+    name: "Shri. Siddhant Ukirade",
     designation: "Member",
     designationMarathi: "Sadasya",
     image: "/images/team/member-2.jpeg",

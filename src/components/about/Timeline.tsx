@@ -3,13 +3,13 @@ const milestones = [
     year: "1993",
     title: "Foundation",
     description:
-      "Bharat Mata Bahuuddeshiy Sanstha was established in Barshi with a vision to serve the community through education.",
+      "Bharatmata Bahuuddeshiya Sanstha was established in Barshi with a vision to serve the community through education.",
   },
   {
     year: "1995",
     title: "First Special School",
     description:
-      "Opened the Matimand Residential School in Agalgaon for intellectually challenged children, our first step toward inclusive education.",
+      "Opened the Matimand Nivasi Shala in Agalgaon for intellectually challenged children, our first step toward inclusive education.",
   },
   {
     year: "2000",
@@ -30,8 +30,20 @@ const milestones = [
       "Started the Balkashram Child Care Center and Nursing School, expanding our services to healthcare education and child welfare.",
   },
   {
+    year: "2019",
+    title: "Shahu-Phule-Ambedkar Award",
+    description:
+      "Honored by the Department of Social Justice & Special Assistance, Government of Maharashtra, at an award ceremony in Nashik for outstanding social service work.",
+  },
+  {
     year: "2020",
-    title: "10 Centers Milestone",
+    title: "Dalit Mitra Gaurav Puraskar",
+    description:
+      "Our Secretary was honored with the Dalit Mitra Gaurav Puraskar by the Government of Maharashtra for outstanding contributions to the upliftment and welfare of underprivileged communities.",
+  },
+  {
+    year: "2023",
+    title: "10 Centers & Growing",
     description:
       "Reached 10 operational centers serving over 1,825 students with 111 dedicated staff members across Barshi and Agalgaon.",
   },

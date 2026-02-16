@@ -12,7 +12,7 @@ export default function AboutPreview() {
               About Our Organization
             </h2>
             <p className="text-gray-600 mb-4 leading-relaxed">
-              Bharat Mata Bahuuddeshiy Sanstha was founded in 1993 in Barshi,
+              Bharatmata Bahuuddeshiya Sanstha, Barshi was founded in 1993 in Barshi,
               Solapur District, Maharashtra, with a vision to uplift communities
               through education and social welfare. What began as a small
               initiative has grown into a comprehensive educational network

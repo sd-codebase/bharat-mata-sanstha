@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { ORG_NAME } from "@/lib/constants";
+import AwardsSection from "@/components/about/AwardsSection";
 import MissionVision from "@/components/about/MissionVision";
 import Timeline from "@/components/about/Timeline";
 import TeamSection from "@/components/about/TeamSection";
@@ -44,9 +45,9 @@ export default function AboutPage() {
             </p>
             <p>
               In the early years, the organization established its first special
-              schools in Agalgaon &mdash; the Matimand Residential School for
-              intellectually challenged children and the Mukobadhir Residential
-              School for hearing-impaired students. These institutions filled a
+              schools in Agalgaon &mdash; the Matimand Nivasi Shala for
+              intellectually challenged children and the Mukbadhir Nivasi Shala
+              for hearing-impaired students. These institutions filled a
               critical gap in the region, providing specialized care and
               education that was previously unavailable to these communities.
             </p>
@@ -71,6 +72,7 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <AwardsSection />
       <MissionVision />
       <Timeline />
       <TeamSection />

@@ -8,7 +8,7 @@ export default function StatsSection() {
           {stats.map((stat) => (
             <div key={stat.label}>
               <div className="text-4xl md:text-5xl font-bold text-white">
-                {stat.value.toLocaleString()}
+                {stat.noFormat ? stat.value : stat.value.toLocaleString()}
                 {stat.suffix}
               </div>
               <div className="text-white/90 text-lg mt-2 font-medium">
