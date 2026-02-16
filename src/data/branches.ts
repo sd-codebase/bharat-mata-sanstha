@@ -22,6 +22,7 @@ export interface Branch {
   grades?: string;
   facilities?: string[];
   contact?: { phone?: string; email?: string };
+  mapUrl?: string;
   heroImage?: string;
   gallery?: BranchImage[];
   achievements?: Achievement[];
@@ -34,6 +35,7 @@ export const branches: Branch[] = [
     name: "Matimand Nivasi Shala Agalgaon",
     type: "Special School",
     location: "Agalgaon, Belgaon Road, Tal. Barshi, Dist. Solapur",
+    mapUrl: "https://goo.gl/maps/3mqvh4H5jHTcdUwC9",
     students: 50,
     description:
       "A dedicated residential school providing specialized education and care for intellectually challenged children, fostering their growth and independence.",
@@ -189,6 +191,7 @@ export const branches: Branch[] = [
     name: "Mukbadhir Nivasi Shala Agalgaon",
     type: "Special School",
     location: "Agalgaon, Belgaon Road, Tal. Barshi, Dist. Solapur",
+    mapUrl: "https://maps.app.goo.gl/2TdfmC6Cyx7rbVnU8",
     students: 50,
     description:
       "A residential school for hearing-impaired children, offering tailored educational programs with sign language support and vocational training.",
@@ -220,6 +223,12 @@ export const branches: Branch[] = [
         caption:
           "Detailed coverage: Indian-American scientist from Chicago donates recreational equipment for hearing-impaired students",
       },
+      {
+        src: "/images/branches/branch-2/speech-room.jpeg",
+        alt: "Speech therapy room at Mukbadhir Nivasi Shala",
+        caption:
+          "A student using hearing equipment in the speech therapy and audiometry room at Mukbadhir Nivasi Shala, Agalgaon",
+      },
     ],
     achievements: [
       {
@@ -248,6 +257,7 @@ export const branches: Branch[] = [
     name: "Madhyamik Vidyalay",
     type: "Secondary School",
     location: "Agalgaon, Tal. Barshi, Dist. Solapur",
+    mapUrl: "https://maps.app.goo.gl/wu5g53QYKvf8Gjz7A",
     students: 150,
     description:
       "A well-established secondary school offering quality education from 5th to 10th standard, nurturing rural students with a strong academic foundation.",
@@ -288,6 +298,7 @@ export const branches: Branch[] = [
     name: "Swami Samarth English Medium School",
     type: "English Medium",
     location: "Barshi, Dist. Solapur",
+    mapUrl: "https://maps.app.goo.gl/4XRPT6sPLhyJdyJt6",
     students: 750,
     description:
       "Our flagship English medium school in Barshi town, providing modern education with excellent facilities from nursery to 10th standard. The largest center with 750+ students.",
@@ -337,6 +348,7 @@ export const branches: Branch[] = [
     name: "Swami Samarth Magasvargiya Vidyarthi Vastigrah Agalgaon",
     type: "Hostel",
     location: "Agalgaon, Tal. Barshi, Dist. Solapur",
+    mapUrl: "https://maps.app.goo.gl/vucFc8mbsbD9vqM87",
     students: 80,
     description:
       "A government-aided hostel for boys from backward classes, providing boarding and lodging facilities to support their education and overall development.",
@@ -362,6 +374,7 @@ export const branches: Branch[] = [
     name: "Swami Samarth Magasvargiya Vidyarthi Vastigrah Barshi",
     type: "Hostel",
     location: "Barshi, Dist. Solapur",
+    mapUrl: "https://maps.app.goo.gl/T2NtfPuy44qM9L1c8",
     students: 54,
     description:
       "A hostel facility in Barshi town supporting boys from backward classes with accommodation, meals, and a conducive environment for academic success.",
@@ -387,6 +400,7 @@ export const branches: Branch[] = [
     name: "Swami Samarth English Medium School",
     type: "English Medium",
     location: "Agalgaon, Tal. Barshi, Dist. Solapur",
+    mapUrl: "https://goo.gl/maps/BE9FwCvjYnq5q56T9",
     students: 85,
     description:
       "An English medium school in the Agalgaon area, bringing quality English-language education closer to rural communities.",
@@ -416,6 +430,7 @@ export const branches: Branch[] = [
     name: "Swami Samarth Balkashram Balsangopan Kendra",
     type: "Child Care",
     location: "Barshi, Dist. Solapur",
+    mapUrl: "https://maps.app.goo.gl/yCHTq4BrzcrmRKD58",
     students: 200,
     description:
       "A child care and welfare center providing shelter, nutrition, education, and emotional support to orphaned and underprivileged children.",
@@ -464,6 +479,7 @@ export const branches: Branch[] = [
     name: "Swami Samarth Nursing School",
     type: "Nursing School",
     location: "Barshi, Dist. Solapur",
+    mapUrl: "https://maps.app.goo.gl/19GDbdSyi1zpuJLm8",
     students: 50,
     description:
       "A professional nursing school offering ANM courses, training the next generation of healthcare professionals to serve rural communities.",
@@ -501,6 +517,7 @@ export const branches: Branch[] = [
     name: "Swami Samarth Semi-English School",
     type: "Semi-English",
     location: "Irle/Agalgaon, Barshi, Dist. Solapur",
+    mapUrl: "https://maps.app.goo.gl/8Uc7omLa53wpYbp69",
     students: 356,
     description:
       "A semi-English medium school offering a bilingual approach, helping students transition smoothly while maintaining strong academic standards.",

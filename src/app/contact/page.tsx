@@ -1,6 +1,6 @@
 "use client";
 
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, ExternalLink } from "lucide-react";
 import { CONTACT_INFO } from "@/lib/constants";
 
 export default function ContactPage() {
@@ -63,9 +63,15 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-navy mb-1">Address</h3>
-                    <p className="text-gray-600 text-sm">
+                    <a
+                      href={CONTACT_INFO.mapUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-600 text-sm hover:text-saffron transition-colors inline-flex items-start gap-1"
+                    >
                       {CONTACT_INFO.address}
-                    </p>
+                      <ExternalLink size={12} className="shrink-0 mt-0.5" />
+                    </a>
                   </div>
                 </div>
 

@@ -13,6 +13,7 @@ import {
   X,
   ChevronLeft,
   ChevronRight,
+  ExternalLink,
 } from "lucide-react";
 import { Branch } from "@/data/branches";
 
@@ -205,9 +206,21 @@ export default function BranchDetailContent({ branch }: { branch: Branch }) {
                     size={18}
                     className="text-saffron shrink-0 mt-0.5"
                   />
-                  <span className="text-gray-600 text-sm">
-                    {branch.location}
-                  </span>
+                  {branch.mapUrl ? (
+                    <a
+                      href={branch.mapUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-600 text-sm hover:text-saffron transition-colors inline-flex items-start gap-1"
+                    >
+                      {branch.location}
+                      <ExternalLink size={12} className="shrink-0 mt-0.5" />
+                    </a>
+                  ) : (
+                    <span className="text-gray-600 text-sm">
+                      {branch.location}
+                    </span>
+                  )}
                 </div>
                 <div className="flex items-center gap-3">
                   <Users size={18} className="text-saffron shrink-0" />
@@ -289,6 +302,25 @@ export default function BranchDetailContent({ branch }: { branch: Branch }) {
             </div>
           </div>
         </div>
+
+        {/* Google Maps */}
+        {branch.mapUrl && (
+          <div className="mt-12">
+            <h2 className="text-2xl font-bold text-navy mb-4">Location</h2>
+            <div className="rounded-lg overflow-hidden shadow-md">
+              <iframe
+                src={`https://maps.google.com/maps?q=${encodeURIComponent(branch.name + ", " + branch.location)}&z=16&output=embed`}
+                width="100%"
+                height="400"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title={`${branch.name} location`}
+              />
+            </div>
+          </div>
+        )}
       </div>
     </>
   );
